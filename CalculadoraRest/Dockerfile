@@ -4,3 +4,4 @@ ENV WORKSPACE /opt
 WORKDIR ${WORKSPACE}
 COPY target/calculadora-rest.jar .
 ENTRYPOINT java -jar calculadora-rest.jar
+EXPOSE 8585
